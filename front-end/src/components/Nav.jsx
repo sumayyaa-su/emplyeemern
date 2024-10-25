@@ -29,7 +29,7 @@ const Nav = () => {
             EMPLOYEE APP
           </Typography>
           
-          <Link to={'/'} style={{color: 'white'}}><Button color="inherit" sx={{border: 1, margin: 2, '&:hover': { border: 'none', 
+          <Link to={'/home'} style={{color: 'white'}}><Button color="inherit" sx={{border: 1, margin: 2, '&:hover': { border: 'none', 
           backgroundColor: 'white', color: '#86D293'},'&:focus': {outline: 'none'}}}>Home</Button></Link>
 
         <Link to={'/add'} style={{color: 'white'}}><Button color="inherit" sx={{border: 1, '&:hover': { border: 'none', 
